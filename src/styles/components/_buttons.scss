@@ -34,7 +34,7 @@
 
 .btn-primary{
     color: $white;
-    background-color: $primary;
+    background-color: $primary-light;
     border-radius: 5px;
     box-shadow:0px 5px 15px 0px $dark-blue;
 
@@ -42,7 +42,7 @@
         background-color: darken($color: $primary, $amount: 15);
     }
     &:hover{
-        background-color: $primary-light;
+        background-color: $primary;
     }
 }
 .btn-block{
