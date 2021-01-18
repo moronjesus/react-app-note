@@ -1,0 +1,155 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 7px 10px 7px 10px;
+
+    &:focus{
+        outline: none;
+    }
+    
+   
+}
+.btn-secundary{
+    margin:2px;
+    color: $white;
+
+    &:hover{
+        color: $primary;
+    }
+
+}
+
+.btn-logout{
+    color: $primary;
+    
+    &:hover{
+        background-color: #ff6262;
+        color: #fff;
+        box-shadow: 0px 0px 5px #a2a0a0;
+    }
+
+}
+
+.btn-primary{
+    color: $white;
+    background-color: $primary;
+    border-radius: 5px;
+    box-shadow:0px 5px 15px 0px $dark-blue;
+
+    &:disabled{
+        background-color: darken($color: $primary, $amount: 15);
+    }
+    &:hover{
+        background-color: $primary-light;
+    }
+}
+.btn-block{
+    width: 100%;
+}
+
+.google-btn {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 32px;
+    border-radius: 5px;
+    background-color: $secundary;
+    box-shadow:0px 5px 15px 0px $dark-blue;
+
+    .google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 60px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: $white;
+    }
+    .google-icon {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 21px;
+        width: 18px;
+        height: 12px;
+    }
+    .btn-text {
+        float: right;
+        margin: 8px 40px 0 0;
+        color: $white;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    &:hover {
+        box-shadow: 0 0 6px $dark-blue;
+    
+    }
+    &:active {
+        background: $dark-blue;
+    }
+    
+
+}
+
+.btn-danger{
+    color: $white;
+    background-color: $primary-light;
+    
+    transition: background-color  .3s ease;
+
+    &:hover{
+        background-color: darken($color: $primary, $amount: 3);
+    }
+}
+
+
+  span{
+    transition:.5s;  
+  }
+
+  .btn-floating{
+    width:55px;
+    height:55px;
+    border-radius:100%;
+    border:none;
+    color:#FFF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-size:28px;
+    outline:none;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-right:26px;
+    transform:scale(0);
+    cursor: pointer;
+  }
+  .botonF2{
+    background-color: $color-yellow ;
+    margin-bottom:25px;
+    &:hover{
+        background: $white;
+        color: $primary;
+    }
+    
+  }
+  .botonF3{
+    background-color: $primary-light;
+    margin-bottom:90px;
+
+    transition: background-color .3s ease;
+    &:hover{
+        background: $white;
+        color: $primary;
+    }
+  
+  }
+  
+  .animacionVer{
+    transform:scale(1);
+  }
+  
+
+  
+ 

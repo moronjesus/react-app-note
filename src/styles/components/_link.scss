@@ -1,0 +1,11 @@
+.link{
+    color: $dark-blue;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    &:hover{
+        color: $primary;
+    }
+}

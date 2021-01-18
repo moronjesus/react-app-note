@@ -1,0 +1,80 @@
+* {
+    font-family: Helvetica,Arial, sans-serif;
+    margin: 0;
+
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main{
+    width: 100%;
+}
+
+hr{
+    margin-top: 7px;
+}
+
+p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.mt-1{
+    margin-top: 5px;
+    
+}
+.mt-5{
+    margin-top: 20px;
+
+}
+
+.mb-1{
+    margin-bottom: 5px;
+
+}
+
+.mb-5{
+    margin-bottom: 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.text-primary{
+    color: $primary;
+}
+
+.star-color{
+    color: $color-yellow;
+}
+
+.tooltipp .tooltiptext {
+    visibility: hidden;
+    font-size: 11px;
+    width: 120px;
+    background-color: rgba(235, 232, 232, 0.575);
+    color: $dark-blue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    right: 110%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltipp:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
